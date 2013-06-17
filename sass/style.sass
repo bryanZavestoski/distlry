@@ -5,19 +5,12 @@
   -webkit-appearance: none
 
 html
+  +background(url("../img/bg.jpg") no-repeat center 15% fixed, #eae7d7)
+  +background-size(cover)
   font-family: "garamond-premier-pro-display", serif
   font-size: 24px
   color: #2f2927
   line-height: 1.4em
-#background
-  +background(url("../img/bg.jpg") no-repeat center 15%, #eae7d7)
-  +background-size(cover)
-  position: fixed
-  top: 0
-  left: 0
-  right: 0
-  bottom: 0
-  z-index: -1
 #mask
   position: absolute
   top: 0
@@ -103,8 +96,6 @@ input
       padding: 40px 20px
   .info
     text-align: left
-  h2
-    font-size: 32px
   h3
     font-size: 20px
   h4
