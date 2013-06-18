@@ -1,0 +1,1 @@
+$(window).load(function(){$("#mask").fadeOut(1e3);$(".container").addClass("movement")});
